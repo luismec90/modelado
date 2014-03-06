@@ -6,6 +6,7 @@ if (!defined('BASEPATH'))
 class Inicio extends CI_Controller {
 
     public function index() {
+         $this->load->helper('form');
         $this->load->model("asignatura_model");
 
         $data["tab"] = "inicio";

@@ -200,6 +200,24 @@
                             <button type="button" class="btn btn-primary pull-right">Enviar</button>
                         </div>
                     </div>
+                   <?php  echo form_open('empleados/nuevo_empleado');
+        echo form_label('Nombre', 'nombre');
+        echo form_input('nombre');echo '<br>';
+        echo form_label('Sueldo', 'sueldo');
+        echo form_input('sueldo');echo '<br>';    
+        $options = array(
+                  'small'  => 'Small Shirt',
+                  'med'    => 'Medium Shirt',
+                  'large'   => 'Large Shirt',
+                  'xlarge' => 'Extra Large Shirt',
+                );
+
+$shirts_on_sale = array('small', 'large');
+
+echo form_dropdown('shirts', $options, 'large');
+echo form_input('name', set_value('name')); 
+        echo form_submit('botonSubmit', 'Enviar');
+        echo form_close(); ?>
                 </div>
             </div>
 
