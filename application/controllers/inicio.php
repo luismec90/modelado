@@ -11,7 +11,7 @@ class Inicio extends CI_Controller {
         $data["tab"] = "inicio";
         $data["css"] = array("css/inicio");
         $data["js"] = array("js/inicio");
-        $data["users"] = $this->user_model->getUsers();
+       // $data["users"] = $this->user_model->getUsers();
 
         $this->load->view('include/header', $data);
         $this->load->view('inicio_view');
