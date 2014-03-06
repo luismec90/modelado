@@ -1,7 +1,7 @@
 
 <h1 id="titulo">
     <a id="menu-toggle" href="#" class="btn btn-default"><i class="icon-reorder"></i></a>
-    Cálculo Diferecial
+    <?= $asignatura[0]->nombre ?>
 </h1>
 <!-- Page content -->
 <div id="page-content-wrapper">
@@ -157,34 +157,34 @@
                                     <h3 class="panel-title">Feedback 3</h3>
                                 </div>
                                 <div id="ElementToExpandOnClick4" class="panel-collapse collapse">
-                                        <div class="panel-body">
-                                                            <div class="row">
-                                                                <div class="col-xs-12">
-                                                                    <p class="inno" data="p">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis pharetra
-                                                                        varius quam sit amet vulputate. Quisque mauris augue, molestie tincidunt
-                                                                        condimentum vitae, gravida a libero. Aenean sit amet felis dolor, in sagittis
-                                                                        nisi. Sed ac orci quis tortor imperdiet venenatis. Duis elementum auctor
-                                                                        accumsan. Aliquam in felis sit amet augue.</p>
-                                                                    <ul class="list-inline inno" data="ul">
-                                                                        <li><a href="#" class="inno" data="a">2 Días Atras</a>
-                                                                        </li>
-                                                                        <li><a href="#" class="inno" data="a"><i class="glyphicon glyphicon-comment"></i> 4 Comentarios</a>
-                                                                        </li>
-                                                                    </ul>
-                                                                </div>
-                                                            </div>
-                                                            <div class="row">
-                                                                <div class="col-xs-12">
-                                                                    <textarea  class="form-control"></textarea>
-                                                                </div>
-                                                            </div>
-                                                            <br>
-                                                            <div class="row">
-                                                                <div class="col-xs-12">
-                                                                    <button type="button" class="btn btn-primary pull-right">Enviar</button>
-                                                                </div>
-                                                            </div>
-                                                        </div>
+                                    <div class="panel-body">
+                                        <div class="row">
+                                            <div class="col-xs-12">
+                                                <p class="inno" data="p">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis pharetra
+                                                    varius quam sit amet vulputate. Quisque mauris augue, molestie tincidunt
+                                                    condimentum vitae, gravida a libero. Aenean sit amet felis dolor, in sagittis
+                                                    nisi. Sed ac orci quis tortor imperdiet venenatis. Duis elementum auctor
+                                                    accumsan. Aliquam in felis sit amet augue.</p>
+                                                <ul class="list-inline inno" data="ul">
+                                                    <li><a href="#" class="inno" data="a">2 Días Atras</a>
+                                                    </li>
+                                                    <li><a href="#" class="inno" data="a"><i class="glyphicon glyphicon-comment"></i> 4 Comentarios</a>
+                                                    </li>
+                                                </ul>
+                                            </div>
+                                        </div>
+                                        <div class="row">
+                                            <div class="col-xs-12">
+                                                <textarea  class="form-control"></textarea>
+                                            </div>
+                                        </div>
+                                        <br>
+                                        <div class="row">
+                                            <div class="col-xs-12">
+                                                <button type="button" class="btn btn-primary pull-right">Enviar</button>
+                                            </div>
+                                        </div>
+                                    </div>
                                 </div>
                             </div>
                         </div>

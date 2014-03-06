@@ -39,9 +39,6 @@
                             <li class="active"><a href="#">1.1. Definición de función, dominio, rango, gráfica de una función, prueba de la recta vertical</a></li>
                             <li><a href="#">1.2. Funciones definidas a tramos, valor absoluto, simetría, función par, impar, funciones crecientes, decrecientes. Catálogo de funciones básicas: función lineal.</a></li>
                             <li><a href="#">1.3. Catálogo de funciones básicas: polinomios (grado, raíces, función cuadrática, función cúbica), funciones de potencia, funciones racionales, funciones algebraicas y funciones trigonométricas.</a></li>
-                            <li><a href="#">1.4. Transformaciones de funciones: desplazamientos verticales y horizontales, alargamientos verticales y horizontales.</a></li>
-                            <li><a href="#"></a></li>
-                            <li><a href="#"></a></li>
                         </ul>
                     </li>
                     <li>
